@@ -35,7 +35,17 @@ export const progressRocketWeight = async(Rockets)=>{
         divInformationContainer.append(divLast)
         conterDiv.push(divInformationContainer)
     });
-    return conterDiv
+    let information__2 = document.querySelector("#information__2");
+    information__2.append(...conterDiv)
+    // <div class="information__container">
+    //     <div>
+    //         <label>Totle :</label>
+    //         <progress max="100" value="70">70%</progress>
+    //     </div>
+    //     <div>
+    //         <span>0 kg <br> 0 lb</span>
+    //     </div>
+    // </div>
 }
 export const progressPayloadWeights = async(Rockets)=>{
     let {kg} = await getRocketPayloadWeightsTotal();
@@ -66,7 +76,17 @@ export const progressPayloadWeights = async(Rockets)=>{
         divInformationContainer.append(divLast)
         conterDiv.push(divInformationContainer)
     });
-    return conterDiv
+    let information__2 = document.querySelector("#information__2");
+    information__2.append(...conterDiv)
+    // <div class="information__container">
+    //     <div>
+    //         <label>Totle :</label>
+    //         <progress max="100" value="70">70%</progress>
+    //     </div>
+    //     <div>
+    //         <span>0 kg <br> 0 lb</span>
+    //     </div>
+    // </div>
 }
 export const progressHeightRocket = async(Rockets)=>{
     let {meters} = await getRocketHeightTotal();
@@ -97,7 +117,17 @@ export const progressHeightRocket = async(Rockets)=>{
         divInformationContainer.append(divLast)
         conterDiv.push(divInformationContainer)
     });
-    return conterDiv
+    let information__2 = document.querySelector("#information__2");
+    information__2.append(...conterDiv)
+    // <div class="information__container">
+    //     <div>
+    //         <label>Totle :</label>
+    //         <progress max="100" value="70">70%</progress>
+    //     </div>
+    //     <div>
+    //         <span>0 kg <br> 0 lb</span>
+    //     </div>
+    // </div>
 }
 export const progressDiameterRocket = async(Rockets)=>{
     let {meters} = await getRocketDiameterTotal();
@@ -128,7 +158,17 @@ export const progressDiameterRocket = async(Rockets)=>{
         divInformationContainer.append(divLast)
         conterDiv.push(divInformationContainer)
     });
-    return conterDiv
+    let information__2 = document.querySelector("#information__2");
+    information__2.append(...conterDiv)
+    // <div class="information__container">
+    //     <div>
+    //         <label>Totle :</label>
+    //         <progress max="100" value="70">70%</progress>
+    //     </div>
+    //     <div>
+    //         <span>0 kg <br> 0 lb</span>
+    //     </div>
+    // </div>
 }
 export const progressSecondStageDiameterRocket = async(Rockets)=>{
     let {meters} = await getRocketSecondStageCompositeFairingDiameterTotal();
@@ -159,7 +199,17 @@ export const progressSecondStageDiameterRocket = async(Rockets)=>{
         divInformationContainer.append(divLast)
         conterDiv.push(divInformationContainer)
     });
-    return conterDiv
+    let information__2 = document.querySelector("#information__2");
+    information__2.append(...conterDiv)
+    // <div class="information__container">
+    //     <div>
+    //         <label>Totle :</label>
+    //         <progress max="100" value="70">70%</progress>
+    //     </div>
+    //     <div>
+    //         <span>0 kg <br> 0 lb</span>
+    //     </div>
+    // </div>
 }
 export const progressSecondStageHeightRocket = async(Rockets)=>{
     let {meters} = await getRocketSecondStageCompositeFairingHeightTotal();
@@ -190,5 +240,15 @@ export const progressSecondStageHeightRocket = async(Rockets)=>{
         divInformationContainer.append(divLast)
         conterDiv.push(divInformationContainer)
     });
-    return conterDiv
+    let information__2 = document.querySelector("#information__2");
+    information__2.append(...conterDiv)
+    // <div class="information__container">
+    //     <div>
+    //         <label>Totle :</label>
+    //         <progress max="100" value="70">70%</progress>
+    //     </div>
+    //     <div>
+    //         <span>0 kg <br> 0 lb</span>
+    //     </div>
+    // </div>
 }
