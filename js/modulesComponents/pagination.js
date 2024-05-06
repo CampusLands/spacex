@@ -12,7 +12,8 @@ import {
     informationWebRocket
 } from "./information.js";
 import { 
-    tableRocketColum1 
+    tableRocketColum1, 
+    tableRocketColum2
 } from "./tables.js";
 import { 
     informRocketEngineThrustSeaLevel, 
@@ -61,6 +62,7 @@ const getRocketsId = async(e)=>{
     await imageRockets(Rocket.flickr_images);
 
     await tableRocketColum1(Rocket)
+    await tableRocketColum2(Rocket)
 
     await progressRocketWeight(Rocket)
     await progressPayloadWeights(Rocket)
@@ -83,7 +85,7 @@ export const paginationRockets = async()=>{
         div.appendChild(a);
     });
     let [a1,a2,a3,a4] = div.children
-    a1.click();
+    a3.click();
     // <div class="buttom__paginacion">
     //     <a href="#">&laquo;</a> 
     //     <a href="#" class="activo">1</a>
